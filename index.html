@@ -8,7 +8,7 @@
     <!-- === UNICONS === -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
     <!-- === SWIPER CSS === -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <!-- === STYLE CSS === -->
     <link rel="stylesheet" href="/css/style.css">
     <title>Portfolio</title>
@@ -32,13 +32,13 @@
                             <i class="uil uil-user nav__icon"></i>About
                         </a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i>Skills
                         </a>
-                    </li>
+                    </li> -->
                     <li class="nav__item">
-                        <a href="#porfolio" class="nav__link">
+                        <a href="#portfolio" class="nav__link">
                             <i class="uil uil-briefcase-alt nav__icon"></i>Portfolio
                         </a>
                     </li>
@@ -111,10 +111,74 @@
             </div>
         </section>
         <!-- === ABOUT === -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="/assets/images/profile_avatar.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
+                    <div class="about__buttons">
+                        <a download="" href="/assets/docs/resume.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SKILLS === -->
+        <!-- === PORTFOLIO === -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+            <div class="portfolio__container container">
+                <div class="">
+                    <!-- === PORTFOLIO 1 === -->
+                    <div class="portfolio__content grid">
+                        <img src="/assets/images/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">eCommerce Watch Store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Github <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- === PORTFOLIO 2 === -->
+                    <div class="portfolio__content grid">
+                        <img src="/assets/images/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">eCommerce Watch Store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Github <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- === PORTFOLIO 3 === -->
+                    <div class="portfolio__content grid">
+                        <img src="/assets/images/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">eCommerce Watch Store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Github <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- === SWIPER JS === -->
-    <script src=""></script>
+    <script src="/js/swiper-bundle.min.js"></script>
     <!-- === MAIN JS === -->
     <script src="/js/main.js"></script>
 </body>
